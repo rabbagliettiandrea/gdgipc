@@ -14,7 +14,7 @@ logger.info('Connecting to hello world server…')
 socket = context.socket(zmq.REQ)
 socket.connect('tcp://localhost:5555')
 
-for request in range(10):
+for request in xrange(10):
     logger.info('Sending request %s...' % request)
     socket.send(b'Hello')
 
