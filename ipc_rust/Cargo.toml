@@ -1,0 +1,15 @@
+[package]
+name = "ipc_rust"
+version = "0.1.0"
+authors = ["Andrea Rabbaglietti <rabbagliettiandrea@gmail.com>"]
+
+[dependencies]
+zmq = "0.8.2"
+
+[[bin]]
+name = "zeromq_client"
+path = "src/zeromq/client.rs"
+
+[[bin]]
+name = "zeromq_server"
+path = "src/zeromq/server.rs"
