@@ -1,5 +1,4 @@
 celery
-librabbitmq
 pyfiglet
 termcolor
 zmq

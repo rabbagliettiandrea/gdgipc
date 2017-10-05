@@ -1,10 +1,12 @@
 import logging
 
+import sys
 from pyfiglet import figlet_format
 from termcolor import cprint
 
 logging.basicConfig(
-    format='[%(asctime)s %(levelname)s] %(message)s', level=logging.INFO, datefmt='%H:%M:%S'
+    format='[%(asctime)s %(levelname)s] %(message)s', level=logging.INFO, datefmt='%H:%M:%S',
+    stream=sys.stdout
 )
 logger = logging.getLogger(__name__)
 

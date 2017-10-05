@@ -2,3 +2,5 @@
 !.gitignore
 !.env
 *.py[cod]
+target/
+*.lock
