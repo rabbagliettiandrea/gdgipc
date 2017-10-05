@@ -6,7 +6,7 @@ import zmq
 
 from ipc_python import logger, p_title
 
-p_title('0MQ Client')
+p_title('ZMQ Client')
 
 context = zmq.Context()
 

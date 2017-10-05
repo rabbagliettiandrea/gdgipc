@@ -7,7 +7,7 @@ import zmq
 
 from ipc_python import logger, p_title
 
-p_title('0MQ Server')
+p_title('ZMQ Server')
 
 context = zmq.Context()
 socket = context.socket(zmq.REP)
